@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/SimonSays/static/css/main.bd722073.css",
+    "main.js": "/SimonSays/static/js/main.cd559733.js",
+    "static/js/453.f596d7b4.chunk.js": "/SimonSays/static/js/453.f596d7b4.chunk.js",
+    "index.html": "/SimonSays/index.html",
+    "main.bd722073.css.map": "/SimonSays/static/css/main.bd722073.css.map",
+    "main.cd559733.js.map": "/SimonSays/static/js/main.cd559733.js.map",
+    "453.f596d7b4.chunk.js.map": "/SimonSays/static/js/453.f596d7b4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bd722073.css",
+    "static/js/main.cd559733.js"
+  ]
+}
