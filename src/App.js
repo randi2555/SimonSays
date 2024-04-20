@@ -42,7 +42,7 @@ function App() {
       if (userClickedPattern.length === gamePattern.length) {
         setTimeout(() => {
           nextSequence();
-        }, 1000);
+        }, 500); // TODO: lets make this a user option for difficulty
       }
     } else {
       playSound("wrong");

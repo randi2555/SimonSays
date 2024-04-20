@@ -4,9 +4,8 @@ body {
 }
 
 #level-title {
-  font-family: 'Press Start 2P', cursive;
+  font-family: 'Press Start 2P', system-ui;
   font-size: 3rem;
-  margin:  5%;
   color: #FEF2BF;
 }
 
@@ -18,10 +17,8 @@ body {
 }
 
 .btn {
-  margin: 25px;
+  margin: 10px;
   display: inline-block;
-  height: 200px;
-  width: 200px;
   border: 10px solid black;
   border-radius: 20%;
 }
@@ -33,18 +30,30 @@ body {
 
 .red {
   background-color: red;
+  height: 220px;
+  width: 250px;
+  border-radius: 550px 50px 50px 50px;
 }
 
 .green {
   background-color: green;
+  height: 220px;
+  width: 250px;
+  border-radius: 50px 50px 50px 550px;
 }
 
 .blue {
   background-color: blue;
+  height: 220px;
+  width: 250px;
+  border-radius: 50px 550px 50px 50px;
 }
 
 .yellow {
   background-color: yellow;
+  height: 220px;
+  width: 250px;
+  border-radius: 50px 50px 550px 50px;
 }
 
 .pressed {
