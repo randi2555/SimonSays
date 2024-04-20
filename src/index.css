@@ -10,15 +10,18 @@ body {
 }
 
 .container {
-  display: block;
-  width: 50%;
-  margin: auto;
+  display: flex;
+  justify-content: center;
+}
 
+.row {
+  position: absolute;
+  display: grid;
+  gap: 5px;
 }
 
 .btn {
   margin: 10px;
-  display: inline-block;
   border: 10px solid black;
   border-radius: 20%;
 }
@@ -33,6 +36,8 @@ body {
   height: 220px;
   width: 250px;
   border-radius: 550px 50px 50px 50px;
+  grid-column: 1 / 4;
+  grid-row: 1;
 }
 
 .green {
@@ -40,6 +45,8 @@ body {
   height: 220px;
   width: 250px;
   border-radius: 50px 50px 50px 550px;
+  grid-column: 1 / 4;
+  grid-row: 2;
 }
 
 .blue {
@@ -47,6 +54,8 @@ body {
   height: 220px;
   width: 250px;
   border-radius: 50px 550px 50px 50px;
+  grid-column: 4 / 4;
+  grid-row: 1;
 }
 
 .yellow {
@@ -54,6 +63,8 @@ body {
   height: 220px;
   width: 250px;
   border-radius: 50px 50px 550px 50px;
+  grid-column: 4 / 4;
+  grid-row: 2
 }
 
 .pressed {
